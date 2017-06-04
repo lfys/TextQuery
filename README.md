@@ -1,3 +1,3 @@
 # TextQuery
-creating a new branch is quick
-- YES
+creating a new branch is quick and simple
+
