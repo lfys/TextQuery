@@ -60,7 +60,7 @@ void readfile(vector<string>& filev, ifstream &is){
     string text;
     while(std::getline(is, text)){
         filev.push_back(text);
-        int &&n = filev.size() - 1; // 当前行号
+        unsigned int &&n = filev.size() - 1; // 当前行号
         std::istringstream line(text); // 将当前文本分解为单词
         string word, tmp;
         while(line >> tmp){
