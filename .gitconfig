@@ -1,8 +1,5 @@
 [alias]
-    co = checkout
-    ci = commit
-    br = branch
-    st = status
+
 [user]
     name = lfys
     email = zangwan93130@163.com
