@@ -1,4 +1,13 @@
-// Don't use class implement Text Query
+//
+//  main.cpp
+//  TextQuery
+//
+//  Created by pezy on 6/4/14.
+//  Copyright (c) 2017 lfys. All rights reserved.
+//
+//  The TextQuery and QueryResult classes use only capabilities that we have
+//  already covered.
+//  don;t use class
 #include <iostream>
 #include <set>
 #include <map>
