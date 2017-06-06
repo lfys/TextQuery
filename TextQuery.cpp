@@ -39,9 +39,9 @@ QueryResult TextQuery::query(const string &qs)
 std::ostream& print(std::ostream &out, const QueryResult &qr)
 {
     out << qr.word << " occurs: " << qr.lptr->size()
-         << (qr.lptr->size() > 1  ? "times" : "time") << std::endl;
+         << (qr.lptr->size() > 1  ? " times" : " time") << std::endl;
     for(const auto &i : *qr.lptr)
-        out << "\t(line" << i + 1 << ") " << qr.text->at(i) << std::endl;
+        out << "\t(line " << i + 1 << ") \t" << qr.text->at(i) << std::endl;
 
     return out;
 }
