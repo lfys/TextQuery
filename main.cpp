@@ -22,8 +22,8 @@ void runQueries(std::ifstream& infile)
     }
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    ifstream file("../data/bible.txt");
+    ifstream file(argv[1]);
     runQueries(file);
 }
